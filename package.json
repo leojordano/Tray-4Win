@@ -1,0 +1,31 @@
+{
+  "name": "OnCode",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Jordanoo",
+  "main": "main.js",
+  "scripts": {
+    "start": "set PORT=8981 && electron .",
+    "dist": "electron-packager ."
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "electron-builder": "^22.10.5"
+  },
+  "build": {
+    "appId": "",
+    "productName": "OnCode",
+    "win": {}
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.3",
+    "electron": "^12.0.2",
+    "electron-osx-prompt": "^1.4.1",
+    "electron-packager": "^15.2.0",
+    "electron-prompt": "^1.6.2",
+    "electron-store": "^7.0.2",
+    "electron-tray-window": "^1.2.5",
+    "openurl": "^1.1.1"
+  }
+}
